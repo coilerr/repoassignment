@@ -1,3 +1,9 @@
+
+#!/bin/bash
+function guessinggame {
+echo "You are starting the guessing game"
+}
+
 numberoffiles=$(ls | wc -l)
 echo "Guess the number of files of your folder"
 read response
@@ -18,5 +24,8 @@ else
 	
 		read response
 	done
+
 fi
+
 echo "Congratulations"
+
